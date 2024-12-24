@@ -263,3 +263,38 @@ The command installs the following Python packages:
 - jupyter_contrib_nbextensions
 
 As you can see, the `matplotlib-inline` and `jupyter-server-mathjax` packages are installed along with Jupyter Lab.
+
+### Commonly used Python packages
+
+The following packages are commonly used:
+
+```bash
+(jupyter) venv % pip install --upgrade numpy pandas scikit-learn matplotlib seaborn jupyter
+```
+
+The following packages are installed along with the `jupyter` package:
+
+- widgetsnbextension
+- jupyterlab-widgets
+- ipywidgets
+- jupyter-console
+
+The following packages are installed along with the `pandas` package:
+
+- pytz
+- tzdata
+
+The following packages are installed along with the `scikit-learn` package:
+
+- threadpoolctl
+- scipy
+- joblib
+
+The following packages are installed along with the `matplotlib` package:
+
+- pyparsing
+- pillow
+- kiwisolver
+- fonttools
+- cycler
+- contourpy
