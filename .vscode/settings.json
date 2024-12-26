@@ -6,8 +6,12 @@
     "matplotlib",
     "mpdecimal",
     "nbextensions",
+    "ndarray",
+    "numpy",
     "pyvenv",
     "rwxr",
+    "scikit",
+    "seaborn",
     "venv"
   ]
 }
