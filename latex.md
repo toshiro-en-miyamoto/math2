@@ -39,4 +39,4 @@ Thus, mathematical expression renderers include:
   - [Common Issues](https://katex.org/docs/issues)
 
 Refer to
-- [CommonMark Spec 0.31.2](https://spec.commonmark.org/0.31.2/)
+- [CommonMark Spec](https://spec.commonmark.org/)
