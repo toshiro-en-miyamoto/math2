@@ -307,8 +307,15 @@ The following packages are installed along with the `matplotlib` package:
 
 [SymPy](https://docs.sympy.org/dev/index.html) is a Python library for symbolic mathematics. [It](https://docs.sympy.org/dev/tutorials/intro-tutorial/intro.html) can simplify expressions, compute derivatives, integrals, and limits, solve equations, work with matrices, and much, much more, and do it all symbolically.
 
+```python
+from sympy import *
+x = symbols('x')
+d = diff(sin(x)*exp(x), x)
+assert d == exp(x)*sin(x) + exp(x)*cos(x)
+```
+
+The following command installs not only `sympy` but `mpmath`.
+
 ```bash
 (jupyter) venv % pip install --upgrade sympy
 ```
-
-The above command installs not only `sympy` but `mpmath`.
