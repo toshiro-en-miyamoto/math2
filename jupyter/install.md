@@ -48,6 +48,12 @@ Python 3.13.1
 
 ### Creating a virtual environment
 
+If you are on Ubuntu, `python3-venv` is required:
+
+```bash
+sudo apt install python3-venv
+```
+ 
 Create a virtual environment named `jupyter` under the `~/venv` directory:
 
 ```bash
